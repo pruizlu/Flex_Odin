@@ -1,0 +1,353 @@
+
+/* Universal CSS*/
+
+
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+div {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  gap: 24px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2, h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+blockquote{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Head/Setion 1 CSS*/
+
+.head {
+  background-color: #314A59;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 15%;
+
+}
+
+.link-logo, .main {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  border-bottom: 1px solid #56778C;
+}
+
+.link-logo {
+  align-items: center;
+  flex-grow: 0;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+}
+
+.head-links {
+  display: flex;
+  flex: 4;
+}
+
+.list-item {
+  display: flex;
+  flex: 0;
+  flex-basis: 20%;
+  justify-content: flex-end;
+}
+
+.main {
+  padding: 10% 0px;
+
+}
+
+.info {
+display: flex;
+flex-direction: column;
+flex: 1;
+align-items: flex-start;
+gap: 12px;
+padding-right: 5%;
+
+}
+
+
+.info-title, .text-info, .info-button {
+display: flex;
+flex: 0 1 0;
+flex-basis: 0%;
+
+}
+
+.info-button {
+  justify-content: center;
+  align-items: center;
+  flex-grow: 0;
+  background-color: #56778C;
+  padding: 8px 32px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
+.text-info {
+  color: white;
+  font-size: 18px;
+}
+
+.img-block {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+
+}
+
+.logoimg {
+  width: 100%;
+  height: auto;
+}
+
+.blockimg {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex: 1;
+}
+
+/* Block info/Setion 2 CSS*/
+
+
+.four-blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 15%;
+  flex: 1;
+  gap: 32px;
+  color: #1F2937;
+
+}
+
+.four-title {
+  display: flex;
+  flex: 1;
+  font-size: 36px;
+}
+
+.info-blocks {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding: 0px 10%;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 8px;
+}
+
+
+.block-img {
+  border: 4px solid #56778C;
+  border-radius: 20px;
+  display: flex;
+  padding: 5%;
+
+}
+
+
+.angels {
+  background-color: #005221;
+}
+
+.marines {
+  background-color: 	#2E57ED;
+}
+
+.templar {
+  background-color: #353535;
+}
+
+.wolves {
+  background-color: #dae6ef;
+}
+
+
+
+.info-img {
+  width: 100%;
+  height: auto;
+  display: flex;
+ 
+}
+
+.text-desc {
+  text-align: center;
+  display: flex;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* Quote/Setion 3 CSS*/
+
+.big-text {
+  background-color: #56778C;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 80px 15%;
+  flex: 1;
+}
+
+.quote {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1F2937;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding: 0 11%;
+  color: white;
+  padding-bottom: 16px;
+
+}
+
+.quote-desc {
+  font-size: 24px;
+  font-weight: 900;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  padding: 0 13%;
+  color: #314A59;
+  
+}
+
+
+/* Sing in/Setion 4 CSS*/
+
+.sign-up {
+  padding: 80px 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.blue-block {
+  background-color: #D93654;
+  display: flex;
+  flex: 1;
+  padding: 5% 15%;
+  border-radius: 5px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.text-sign, .sign-button {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.text-sign {
+  flex: 3;
+}
+
+.sign-button  {
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+
+}
+
+.buttomsing {
+  border: 2px solid white;
+  background-color: #D93654;
+  padding: 8px 32px;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+
+}
+
+
+.sign-title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.sign-desc {
+  font-size: 18px;
+
+}
+
+
+/* Footer CSS*/
+
+.footer {
+  background-color: #314A59;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 15%;
+  color: white;
+  flex-grow: 0;
+}
+
+.footer-text {
+  font-size: 18px;
+  display: flex;
+}
